@@ -72,6 +72,7 @@ body {
 }
 
 .side__link {
+  font-size: 11px;
   text-decoration: none;
   color: black;
   font-weight: bold;
