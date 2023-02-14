@@ -1,2 +1,0 @@
-# PerScholas
-Homework
