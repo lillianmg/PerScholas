@@ -1,0 +1,8 @@
+{
+  "homepage": "http://lillianmg.github.io/PerScholas/tree/main/week6/spaceship",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
