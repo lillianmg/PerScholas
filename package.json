@@ -1,8 +1,17 @@
 {
-  "homepage": "http://lillianmg.github.io/PerScholas/tree/main/week6/spaceship",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+  "name": "spaceship",
+  "version": "0.1.0",
+  "private": true,
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
-}
+},
+{
+"scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }}
